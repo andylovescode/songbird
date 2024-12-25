@@ -48,13 +48,13 @@ export function child_to_view(child: Child): View {
 	return ['songbird.text', child];
 }
 
-declare global {
-	module JSX {
-		type IntrinsicElements = Record<
-			keyof HTMLElementTagNameMap,
-			Record<string, any>
-		>;
-	}
+// @ts-ignore
+module JSX {
+	// @ts-ignore
+	type IntrinsicElements = Record<
+		keyof HTMLElementTagNameMap,
+		Record<string, any>
+	>;
 }
 
 export const jsx = {
