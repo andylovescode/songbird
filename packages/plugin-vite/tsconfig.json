@@ -1,0 +1,7 @@
+{
+  "extends": "@songbird/typescript-config/library.json",
+  "include": ["./src"],
+  "compilerOptions": {
+    "outDir": "./dist"
+  }
+}

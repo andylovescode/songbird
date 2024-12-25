@@ -1,0 +1,28 @@
+{
+  "name": "@songbird/core",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./dist/index.js"
+    },
+    "./jsx-runtime": {
+      "types": "./src/jsx-runtime.ts",
+      "default": "./dist/jsx-runtime.js"
+    },
+    "./jsx-dev-runtime": {
+      "types": "./src/jsx-runtime.ts",
+      "default": "./dist/jsx-runtime.js"
+    }
+  },
+  "devDependencies": {
+    "@songbird/eslint-config": "workspace:*",
+    "@songbird/typescript-config": "workspace:*",
+    "eslint": "^8.57.0",
+    "typescript": "5.5.4"
+  }
+}

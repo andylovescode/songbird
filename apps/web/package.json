@@ -10,13 +10,14 @@
     "lint": "eslint \"src/**/*.ts\""
   },
   "dependencies": {
-    "@repo/ui": "workspace:*"
+    "@songbird/core": "workspace:*"
   },
   "devDependencies": {
-    "@repo/eslint-config": "workspace:*",
-    "@repo/typescript-config": "workspace:*",
+    "@songbird/eslint-config": "workspace:*",
+    "@songbird/typescript-config": "workspace:*",
+    "@songbird/plugin-vite": "workspace:*",
     "eslint": "^8.57.0",
     "typescript": "5.5.4",
-    "vite": "^5.1.4"
+    "vite": "6.0.5"
   }
 }

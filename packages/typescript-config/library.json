@@ -7,12 +7,9 @@
     "lib": ["ESNext", "DOM"],
     "sourceMap": true,
     "resolveJsonModule": true,
-    "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "@songbird/core"
+    "noImplicitReturns": true
   },
   "exclude": ["node_modules"]
 }
